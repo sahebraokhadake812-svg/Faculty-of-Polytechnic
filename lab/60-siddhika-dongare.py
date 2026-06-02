@@ -16,5 +16,17 @@ def even_odd(n)
     print(even_odd(a))
     print(even_odd(b))
     print(even_odd((c))
+    #problem3
+ a=4
+ b=9
+ c=19
+ def divisible_by_3(e)
+   if e % 3 == 0:
+     return "divisible by 3"
+   else:
+     return "not divisible by 3"
+     print(divisible_by_3(a))
+     print(divisible_by_3(b))
+     print(divisible_by_3(c))
     
 
