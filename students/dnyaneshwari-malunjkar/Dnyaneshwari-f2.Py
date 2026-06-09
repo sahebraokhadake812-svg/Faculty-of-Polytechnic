@@ -28,6 +28,8 @@ for ch in letters:
     else:
         consonants.add(ch)
 
+
+
 print("Vowels Set =", vowels)
 print("Consonants Set =", consonants) 
 
@@ -42,3 +44,13 @@ elif guess < num:
     print("Too low")
 else:
     print("Too high")
+
+#problem
+
+num=10
+unum=0
+while unum! = num:
+uinp=int(input(" gess number 1 to 10") 
+unum=uinput
+print("incorrect guess") 
+print ("correct guess") 
