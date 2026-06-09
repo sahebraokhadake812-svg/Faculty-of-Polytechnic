@@ -26,4 +26,13 @@ for i in range(nos):
     Students.append(name)
 
 print(Students)
+#problem3
+def greet():
+    name = input("Enter your name: ")
+    age = int(input("Enter your age: "))
+    print(f"Hi {name}! Next year you will be {age + 1}.")
+greet()
+
+
+
         
