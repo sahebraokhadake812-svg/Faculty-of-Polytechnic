@@ -1,8 +1,8 @@
 num=10
 unum=int(input("guess a num bet 1 to 10="))
-if(num<10):
+if(unum<num):   # FIX(faculty): compare the user's guess (unum) to num, not the constant num to 10
     print("low")
-elif(num>10):
+elif(unum>num):  # FIX(faculty): same here -> was always false, so it only ever printed "correct guess"
     print("high")
 else:
     print("correct guess")
