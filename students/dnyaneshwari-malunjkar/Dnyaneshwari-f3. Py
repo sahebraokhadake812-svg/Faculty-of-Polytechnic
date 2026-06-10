@@ -34,3 +34,13 @@ for x in range(m):
     d.update({name : age})
     print (d)
 
+#problem 4
+
+def area(l,b):
+    a=l*b
+    return(a)
+l=float(input("length:"))
+b=float(input("breath:"))
+results=area(l,b)
+print(results)
+
