@@ -6,10 +6,11 @@ while True:
         print("incorrect")
     else:
         print("correct ")
+        break  # FIX(faculty): stop the loop on a correct guess (was an infinite loop)
 #problem 2
 n=5
 student=[]
 for x in range(n):
     name=input("Enter your name=")
     student.append(name)
-    print(student)
+print(student)  # FIX(faculty): print once after the loop, not on every iteration
